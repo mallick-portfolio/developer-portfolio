@@ -7,3 +7,23 @@ h1{
 h1 span {
   color: orange;
 }
+.container {
+  display: flex;
+}
+.half-width{
+  width: 50%;
+  padding-left: 5%;
+}
+.half-width img {
+  max-width: 100%;
+}
+.container .btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 25px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: 700;
+}
