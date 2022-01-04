@@ -30,7 +30,7 @@ h1 span {
   padding: 10px 40px;
   background-image: linear-gradient(orange, tomato);
   border-radius: 15px;
-  color: #444;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -42,4 +42,10 @@ h1 span {
   text-decoration: none;
   background-image: linear-gradient(orange,tomato);
   border-radius: 10px;
+  color: #fff;
+}
+.dream-content {
+  margin: auto 0;
+  padding-right: 40px;
+
 }
