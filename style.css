@@ -1,14 +1,22 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1{
   font-size: 50px;
+}
+h2{
+  font-size: 40px;
 }
 h1 span {
   color: orange;
 }
 .container {
   display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .half-width{
   width: 50%;
@@ -18,12 +26,20 @@ h1 span {
   max-width: 100%;
 }
 .container .btn {
-  display: inline-block;
   text-decoration: none;
   padding: 10px 40px;
   background-image: linear-gradient(orange, tomato);
-  border-radius: 25px;
+  border-radius: 15px;
   color: #444;
   text-transform: uppercase;
   font-weight: 700;
+}
+.dream-big {
+  display: flex;
+}
+.download-link {
+  padding: 10px 40px;
+  text-decoration: none;
+  background-image: linear-gradient(orange,tomato);
+  border-radius: 10px;
 }
